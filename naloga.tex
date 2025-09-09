@@ -82,11 +82,24 @@ Pri naši nalogi bomo rabili zgolj dve enačbi. (\ref{eq:tok}) nam pove kako je 
 \end{equation}
 
 \begin{equation}
-  \rho c_p \frac{\partial T}{\partial t} = \div \mathbf{j}
+  \rho \ c_p\ \frac{\partial T}{\partial t} = - \div \mathbf{j}
   \label{eq:kontinuetna}
 \end{equation}
 
+V obeh enačbah je $\mathbf{j}$ vektor gostote toplotnega toka, $T$ temperatura, $\rho$ gostota, $c_p$ specifična toplota in $\underline{\underline{\lambda}}$ tenzor toplotne prevodnosti, o njem bomo malo več povedali kasneje.
 
+V naši nalogi, bomo obravnavali zgolj statične primere, torej velja: $\frac{\partial T}{\partial t} = 0$, kar spremeni enačbo (\ref{eq:kontinuetna}) v:
+
+$$
+\div \mathbf{j} = 0
+$$
+
+\noindent Toplotni tok lahko nato izrazimo iz enačbe (\ref{eq:tok}) in vstavimo v (\ref{eq:kontinuetna}) in tako dobimo (\ref{eq:joined}):
+
+\begin{equation}
+  \div \underline{\underline{\lambda}} \grad{T} = 0
+  \label{eq:joined}
+\end{equation}
 
 
 
