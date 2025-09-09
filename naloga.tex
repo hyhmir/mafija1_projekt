@@ -15,6 +15,8 @@
 \geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
 \usepackage{tikz}
 \usetikzlibrary{patterns}
+\usepackage{physics}
+\usepackage{esvect}
 
 \title{\textbf{Toplotna prevodnost šahovnice iz anizotropnega materiala narezanega pod dvema različnima kotoma}}
 \author{Samo Krejan}
@@ -66,8 +68,27 @@
 \end{figure}
 
 Tradicionalno so ljudje izdelovali šahovnice večinoma iz lesa in se izognili potrebi po barvanju, tako da so šahovnico izdelali iz dveh različnih vrst lesa z različnima barvama. Čisto zares pa bi se lahko izdelovalec šahovnic odločil, da bo razlikoval med polji tako, da bo lesne letnice 'črnih' polj postavil pod nek kot glede na stranico, letnice 'belih' pa pod drugačen kot. Taka šahovnica je zelo zanimiva za fizike, saj ima namreč les mnogo lastnosti (med njimi tudi toplotno prevodnost) ki je drugačna če jo opazujemo vzdolž letnic in prečno na letnice. Tako je efektivna toplotna prevodnost celotne šahovnice precej težavna za določit, a ravno to bomo želeli doseči mi.
+
 \newpage
 \section{Teoretični uvod}
+
+Pri nalogi se bomo ukvarjali zgolj s toplotno prevodnostjo, tako da bomo kakšne druge pojave, ki bi nam v realistični situaciji \textit{nagajali} (npr.: toplotni raztezek) ignorirali.
+
+Pri naši nalogi bomo rabili zgolj dve enačbi. (\ref{eq:tok}) nam pove kako je toplotni tok odvisen od gradienta temperature, (\ref{eq:kontinuetna}) pa nam pove kako se temperatura spreminja zaradi toplotnega toka.
+
+\begin{equation}
+  \mathbf{j} = - \underline{\underline{\lambda}} \grad{T}
+  \label{eq:tok}
+\end{equation}
+
+\begin{equation}
+  \rho c_p \frac{\partial T}{\partial t} = \div \mathbf{j}
+  \label{eq:kontinuetna}
+\end{equation}
+
+
+
+
 
 \newpage
 \begin{figure}[h]
