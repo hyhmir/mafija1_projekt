@@ -4,3 +4,6 @@
 *.synctex.gz
 *.fls
 *.fdb_latexmk
+/build
+sim
+.vscode/
